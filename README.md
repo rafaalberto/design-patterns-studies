@@ -9,3 +9,5 @@ The following patterns has studied so far: <br/>
   - Builder
   - Singleton
   - Prototype
+- Behavioral:
+  - Strategy
