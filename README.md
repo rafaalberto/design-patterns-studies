@@ -11,3 +11,4 @@ The following patterns has studied so far: <br/>
   - Prototype
 - Behavioral:
   - Strategy
+  - Observer
