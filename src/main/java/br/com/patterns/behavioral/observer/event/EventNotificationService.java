@@ -7,18 +7,18 @@ import java.util.List;
 
 public class EventNotificationService {
 
-    private List<NotificationService> listeners = new ArrayList<>();
+    private final List<NotificationService> notificationServices = new ArrayList<>();
 
     public void subscribe(NotificationService service) {
-        listeners.add(service);
+        notificationServices.add(service);
     }
 
     public void unsubscribe(NotificationService service) {
-        listeners.remove(service);
+        notificationServices.remove(service);
     }
 
     public void notify(String message) {
-        listeners.forEach(listener -> listener.send(message));
+        notificationServices.forEach(listener -> listener.send(message));
     }
 
 }
