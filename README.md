@@ -12,3 +12,5 @@ The following patterns has studied so far: <br/>
 - Behavioral:
   - Strategy
   - Observer
+- Structural:
+  - Adapter
